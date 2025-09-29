@@ -16,7 +16,8 @@ const GuideCard: React.FC<{ guide: Guide }> = ({ guide }) => (
         <p className="text-xl font-bold text-gray-900">${guide.price.toFixed(2)}</p>
       </div>
     </div>
-    
+    <a
+
         href={guide.stripeLink}
         className="w-full bg-brand-primary text-white py-2 px-4 font-semibold hover:bg-brand-secondary transition-colors text-center"
     >
