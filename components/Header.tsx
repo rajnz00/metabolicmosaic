@@ -40,15 +40,26 @@ const Header: React.FC = () => {
               <span className="text-xl font-bold text-brand-dark">MetabolicMosaic</span>
             </NavLink>
           </div>
-          <div className="hidden md:block">
-            <nav className="ml-10 flex items-baseline space-x-4">
-              {navLinks.map((link) => (
-                <NavLink key={link.path} to={link.path} className={linkClass}>
-                  {link.label}
-                </NavLink>
-              ))}
-            </nav>
-          </div>
+          <div className="hidden md:flex md:items-center">
+  <nav className="ml-10 flex items-baseline space-x-4">
+    {navLinks.map((link) => (
+      <NavLink key={link.path} to={link.path} className={linkClass}>
+        {link.label}
+      </NavLink>
+    ))}
+  </nav>
+  <a 
+    href="https://www.youtube.com/@MetabolicMosaic"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="ml-6 text-gray-700 hover:text-brand-primary transition-colors"
+    aria-label="Visit our YouTube channel"
+  >
+    <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+</div>
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -73,16 +84,28 @@ const Header: React.FC = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden" id="mobile-menu">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navLinks.map((link) => (
-              <NavLink key={link.path} to={link.path} className={mobileLinkClass} onClick={() => setIsOpen(false)}>
-                {link.label}
-              </NavLink>
-            ))}
-          </div>
-        </div>
-      )}
+  <div className="md:hidden" id="mobile-menu">
+    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      {navLinks.map((link) => (
+        <NavLink key={link.path} to={link.path} className={mobileLinkClass} onClick={() => setIsOpen(false)}>
+          {link.label}
+        </NavLink>
+      ))}
+      <a 
+        href="https://www.youtube.com/@MetabolicMosaic"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-teal-50 hover:text-brand-primary transition-colors"
+        onClick={() => setIsOpen(false)}
+      >
+        <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        YouTube
+      </a>
+    </div>
+  </div>
+)}
     </header>
   );
 };
