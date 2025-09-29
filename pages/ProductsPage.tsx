@@ -18,7 +18,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
             <p className="text-md font-medium text-gray-900">${product.price.toFixed(2)}</p>
         </div>
         {product.stripeLink && (
-            
+            <a
                 href={product.stripeLink}
                 className="mt-4 w-full block text-center bg-brand-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-brand-secondary transition-colors opacity-0 group-hover:opacity-100"
             >
