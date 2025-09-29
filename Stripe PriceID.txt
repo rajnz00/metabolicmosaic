@@ -1,0 +1,8 @@
+Product Name	Price ID	Price
+MM - High Speed Jump Rope	price_1SCgxRPS76jaeeTCFl5SAvrZ	$25.00
+MM - Adjustable Kettlebell	price_1SCgu2PS76jaeeTCKR5wZj0a	$149.00
+MM - Electrolyte Hydration Mix	price_1SCgY5PS76jaeeTCa5WQ8Ijz	$25.50
+MM - Metabolic Whey Protein	price_1SCgVdPS76jaeeTC6BvdrD3k	$49.99
+MM - The Ultimate Meal Prep Cookbook	price_1SCgLpPS76jaeeTCrVyxlGkJ	$19.95
+MM - Beginner's Guide to Strength Training	price_1SCg2jPS76jaeeTCBS1xYdAh	$29.95
+MM - The 4-Week Metabolic Reset	price_1SCfzvPS76jaeeTCBUSdqQlC	$49.95

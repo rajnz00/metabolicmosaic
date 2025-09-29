@@ -1,0 +1,20 @@
+Price ID,Product ID,Product Name,Product Statement Descriptor,Product Tax Code,Description,Created (UTC),Amount,Currency,Interval,Interval Count,Usage Type,Aggregate Usage,Billing Scheme,Trial Period Days,Tax Behavior
+price_1SCgxRPS76jaeeTCFl5SAvrZ,prod_T8yvagft4QT402,High Speed Jump Rope,,txcd_10000000,,2025-09-29 13:17,25.00,nzd,,,,,per_unit,,unspecified
+price_1SCgu2PS76jaeeTCKR5wZj0a,prod_T8yr2ZpxS8Jevq,MM - Adjustable Kettlebell,,txcd_10000000,,2025-09-29 13:14,149.00,nzd,,,,,per_unit,,unspecified
+price_1SCgY5PS76jaeeTCa5WQ8Ijz,prod_T8yVHe2tMgo3id,MM - Electrolyte Hydration Mix,,txcd_10000000,,2025-09-29 12:51,25.50,nzd,,,,,per_unit,,unspecified
+price_1SCgVdPS76jaeeTC6BvdrD3k,prod_T8ySL5r1foR14S,MM - Metabolic Whey Protein,,txcd_10000000,,2025-09-29 12:48,49.99,nzd,,,,,per_unit,,unspecified
+price_1SCgLpPS76jaeeTCrVyxlGkJ,prod_T8yIX7XfrtEpm7,MM - The Ultimate Meal Prep Cookbook,,txcd_10000000,,2025-09-29 12:38,19.95,nzd,,,,,per_unit,,unspecified
+price_1SCg2jPS76jaeeTCBS1xYdAh,prod_T8xysyvlhTASt3,MM - Beginner's Guide to Strength Training,,txcd_10000000,,2025-09-29 12:19,29.95,nzd,,,,,per_unit,,unspecified
+price_1SCfzvPS76jaeeTCBUSdqQlC,prod_T8xvw6c5lQhdJd,MM - The 4-Week Metabolic Reset,,txcd_10000000,,2025-09-29 12:16,49.95,nzd,,,,,per_unit,,unspecified
+price_1SAQVuPS76jaeeTCmHvBmKHy,prod_T6dnquWmtcAMmM,Hand Tools Set,,txcd_10000000,,2025-09-23 07:19,89.00,nzd,,,,,per_unit,,unspecified
+price_1SAQSxPS76jaeeTCBFIP8cQQ,prod_T6dkkJZe9CcM4Z,Framed Wall Art,,txcd_10000000,,2025-09-23 07:16,69.00,nzd,,,,,per_unit,,unspecified
+price_1SAQQuPS76jaeeTCZ9O4dV0H,prod_T6diMEBhjfvgcd,Mid-Century Lamp,,txcd_10000000,,2025-09-23 07:14,89.00,nzd,,,,,per_unit,,unspecified
+price_1SAQP1PS76jaeeTCHyHd3CJj,prod_T6dg6vXVbEyV5j,Tennis Racquet,,txcd_10000000,,2025-09-23 07:12,49.00,nzd,,,,,per_unit,,unspecified
+price_1SAQLePS76jaeeTCnxRcNAtn,prod_T6dcBgYPFXFyXe,Official Basketball,,txcd_10000000,,2025-09-23 07:09,39.00,nzd,,,,,per_unit,,unspecified
+price_1SAQJjPS76jaeeTCvyul8Ha7,prod_T6daROD9Bc7Wme,Classic Puzzle Set,,txcd_10000000,,2025-09-23 07:07,79.00,nzd,,,,,per_unit,,unspecified
+price_1SAQI6PS76jaeeTCRRexui7c,prod_T6dZJcNzoJRaBZ,Mixed Toys & Games,,txcd_10000000,,2025-09-23 07:05,69.00,nzd,,,,,per_unit,,unspecified
+price_1SAQEuPS76jaeeTCe2YjB8Sx,prod_T6dVbbE1rwhAyY,Board Game Bundle,,txcd_10000000,,2025-09-23 07:02,39.00,nzd,,,,,per_unit,,unspecified
+price_1SAPSzPS76jaeeTCgEslt3LD,prod_T6ciKW4JexDIEx,Leather Boots,,txcd_10000000,,2025-09-23 06:12,129.00,nzd,,,,,per_unit,,unspecified
+price_1SAPQNPS76jaeeTCboNQuX9a,prod_T6cfYVOEiXzDDb,White Classics,,txcd_10000000,,2025-09-23 06:10,79.00,nzd,,,,,per_unit,,unspecified
+price_1SAPMkPS76jaeeTClvzEVygj,prod_T6cbmp5M61d54B,Grey Runners,,txcd_10000000,,2025-09-23 06:06,89.00,nzd,,,,,per_unit,,unspecified
+price_1SAOuNPS76jaeeTCKDuUY4Aj,prod_T6c8k4fBn1538F,Vintage Denim Jacket,,txcd_10000000,,2025-09-23 05:36,129.00,nzd,,,,,per_unit,,unspecified
