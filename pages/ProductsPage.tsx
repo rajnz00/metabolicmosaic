@@ -14,7 +14,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
         <div className="mt-4 flex justify-between">
             <div>
                 <h3 className="text-md text-gray-700 font-semibold">
-                    <span aria-hidden="true" className="absolute inset-0" />
                     {product.name}
                 </h3>
                 <p className="mt-1 text-sm text-gray-500">{product.description}</p>
