@@ -23,7 +23,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
         </div>
         {product.stripeLink && (
           <a
-            
                 href={product.stripeLink}
                 className="mt-4 w-full block text-center bg-brand-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-brand-secondary transition-colors"
             >
