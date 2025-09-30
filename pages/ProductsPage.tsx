@@ -29,7 +29,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
         Buy Now
     </a>
 )}
-        )}
+        ){'}'}
     </div>
 );
 
