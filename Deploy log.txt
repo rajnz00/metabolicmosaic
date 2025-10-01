@@ -1,0 +1,131 @@
+8:09:01 AM: build-image version: e8c4c0b200e9701a8a8825b9ff63ea7e9f1740e2 (noble)
+8:09:01 AM: buildbot version: a8227f684d13e2f14c4dff2ff89b1b5fbedbc9d9
+8:09:01 AM: Fetching cached dependencies
+8:09:01 AM: Starting to download cache of 241.6MB (Last modified: 2025-09-29 12:37:37 +0000 UTC)
+8:09:02 AM: Finished downloading cache in 558ms
+8:09:02 AM: Starting to extract cache
+8:09:04 AM: Finished extracting cache in 2.148s
+8:09:04 AM: Finished fetching cache in 2.764s
+8:09:04 AM: Starting to prepare the repo for build
+8:09:04 AM: Preparing Git Reference refs/heads/main
+8:09:06 AM: Starting to install dependencies
+8:09:06 AM: Started restoring cached python cache
+8:09:06 AM: Finished restoring cached python cache
+8:09:06 AM: Started restoring cached ruby cache
+8:09:06 AM: Finished restoring cached ruby cache
+8:09:07 AM: Started restoring cached go cache
+8:09:07 AM: Finished restoring cached go cache
+8:09:08 AM: Started restoring cached Node.js version
+8:09:08 AM: Finished restoring cached Node.js version
+8:09:09 AM: v22.20.0 is already installed.
+8:09:09 AM: Now using node v22.20.0 (npm v10.9.3)
+8:09:09 AM: Enabling Node.js Corepack
+8:09:09 AM: Started restoring cached build plugins
+8:09:09 AM: Finished restoring cached build plugins
+8:09:09 AM: Started restoring cached corepack dependencies
+8:09:09 AM: Finished restoring cached corepack dependencies
+8:09:09 AM: No npm workspaces detected
+8:09:09 AM: Started restoring cached node modules
+8:09:09 AM: Finished restoring cached node modules
+8:09:09 AM: Installing npm packages using npm version 10.9.3
+8:09:10 AM: up to date in 389ms
+8:09:10 AM: npm packages installed
+8:09:10 AM: Successfully installed dependencies
+8:09:10 AM: Starting build script
+8:09:11 AM: Detected 1 framework(s)
+8:09:11 AM: "vite" at version "6.3.6"
+8:09:11 AM: Section completed: initializing
+8:09:12 AM: ​
+8:09:12 AM: Netlify Build                                                 
+8:09:12 AM: ────────────────────────────────────────────────────────────────
+8:09:12 AM: ​
+8:09:12 AM: ❯ Version
+8:09:12 AM:   @netlify/build 35.1.8
+8:09:12 AM: ​
+8:09:12 AM: ❯ Flags
+8:09:12 AM:   accountId: 679f297a57f70ebc797812b3
+8:09:12 AM:   baseRelDir: true
+8:09:12 AM:   buildId: 68dad94c776a3f0008537949
+8:09:12 AM:   deployId: 68dad94c776a3f000853794b
+8:09:13 AM: ​
+8:09:13 AM: ❯ Current directory
+8:09:13 AM:   /opt/build/repo
+8:09:13 AM: ​
+8:09:13 AM: ❯ Config file
+8:09:13 AM:   No config file was defined: using default values.
+8:09:13 AM: ​
+8:09:13 AM: ❯ Context
+8:09:13 AM:   production
+8:09:13 AM: ​
+8:09:13 AM: Build command from Netlify app                                
+8:09:13 AM: ────────────────────────────────────────────────────────────────
+8:09:13 AM: ​
+8:09:13 AM: $ npm run build
+8:09:13 AM: > metabolicmosaic@0.0.0 build
+8:09:13 AM: > vite build
+8:09:13 AM: vite v6.3.6 building for production...
+8:09:13 AM: transforming...
+8:09:13 AM: ✓ 12 modules transformed.
+8:09:13 AM: ✗ Build failed in 203ms
+8:09:13 AM: error during build:
+8:09:13 AM: [vite:esbuild] Transform failed with 3 errors:
+8:09:13 AM: /opt/build/repo/pages/ProductsPage.tsx:23:8: ERROR: The character ">" is not valid inside a JSX element
+8:09:13 AM: /opt/build/repo/pages/ProductsPage.tsx:25:10: ERROR: Unexpected closing "a" tag does not match opening "div" tag
+8:09:13 AM: /opt/build/repo/pages/ProductsPage.tsx:26:10: ERROR: Unterminated regular expression
+8:09:13 AM: file: /opt/build/repo/pages/ProductsPage.tsx:23:8
+8:09:13 AM: 
+8:09:13 AM: The character ">" is not valid inside a JSX element
+8:09:13 AM: 21 |              href={product.stripeLink}
+8:09:13 AM: 22 |              className="mt-4 w-full block text-center bg-brand-primary text-white py-2 px-4 rounded-md font-semibold hover:bg-brand-secondary transition-colors opacity-0 group-hover:opacity-100"
+8:09:13 AM: 23 |          >
+8:09:13 AM:    |          ^
+8:09:13 AM: 24 |              Add to cart
+8:09:13 AM: 25 |          </a>
+8:09:13 AM: Unexpected closing "a" tag does not match opening "div" tag
+8:09:13 AM: 23 |          >
+8:09:13 AM: 24 |              Add to cart
+8:09:13 AM: 25 |          </a>
+8:09:13 AM:    |            ^
+8:09:13 AM: 26 |      </div>
+8:09:13 AM: 27 |  );
+8:09:13 AM: Unterminated regular expression
+8:09:13 AM: 24 |              Add to cart
+8:09:13 AM: 25 |          </a>
+8:09:13 AM: 26 |      </div>
+8:09:13 AM:    |            ^
+8:09:13 AM: 27 |  );
+8:09:13 AM: 
+8:09:13 AM:     at failureErrorWithLog (/opt/build/repo/node_modules/esbuild/lib/main.js:1467:15)
+8:09:13 AM:     at /opt/build/repo/node_modules/esbuild/lib/main.js:736:50
+8:09:13 AM:     at responseCallbacks.<computed> (/opt/build/repo/node_modules/esbuild/lib/main.js:603:9)
+8:09:13 AM:     at handleIncomingPacket (/opt/build/repo/node_modules/esbuild/lib/main.js:658:12)
+8:09:13 AM:     at Socket.readFromStdout (/opt/build/repo/node_modules/esbuild/lib/main.js:581:7)
+8:09:13 AM:     at Socket.emit (node:events:519:28)
+8:09:13 AM:     at addChunk (node:internal/streams/readable:561:12)
+8:09:13 AM:     at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+8:09:13 AM:     at Readable.push (node:internal/streams/readable:392:5)
+8:09:13 AM:     at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+8:09:13 AM: ​
+8:09:13 AM: "build.command" failed                                        
+8:09:13 AM: ────────────────────────────────────────────────────────────────
+8:09:13 AM: ​
+8:09:13 AM:   Error message
+8:09:13 AM:   Command failed with exit code 1: npm run build (https://ntl.fyi/exit-code-1)
+8:09:13 AM: ​
+8:09:13 AM:   Error location
+8:09:13 AM:   In Build command from Netlify app:
+8:09:13 AM:   npm run build
+8:09:13 AM: ​
+8:09:13 AM:   Resolved config
+8:09:13 AM:   build:
+8:09:13 AM:     command: npm run build
+8:09:13 AM:     commandOrigin: ui
+8:09:13 AM:     environment:
+8:09:13 AM:       - STRIPE_PUBLISHABLE_KEY
+8:09:13 AM:       - STRIPE_SECRET_KEY
+8:09:13 AM:     publish: /opt/build/repo/dist
+8:09:13 AM:     publishOrigin: ui
+8:09:13 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+8:09:14 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+8:09:14 AM: Failing build: Failed to build site
+8:09:14 AM: Finished processing build request in 12.643s

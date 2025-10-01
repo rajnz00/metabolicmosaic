@@ -1,0 +1,189 @@
+PS C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\my-sanity-studio> npm run dev
+
+> metabolicmosaic@0.0.0 dev
+> vite
+
+
+  VITE v6.3.6  ready in 318 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.3:3000/
+  ➜  press h + enter to show help
+h
+
+  Shortcuts
+  press r + enter to restart the server
+  press u + enter to show server url
+  press o + enter to open in browser
+  press c + enter to clear console
+  press q + enter to quit
+9:59:15 am [vite] (client) Pre-transform error: C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\pages\HomePage.tsx: Unexpected token, expected "," (64:6)
+
+  62 |       </div>
+  63 |
+> 64 |       {/* Featured Blog Posts */}
+     |       ^
+  65 |       <div className="bg-white py-24 sm:py-32">
+  66 |         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+  67 |           <div className="mx-auto max-w-2xl lg:mx-0">
+  Plugin: vite:react-babel
+  File: C:/Users/rajnz/Starting a Business AI Assissted/MetabolicMosaic Project/metabolicmosaic/pages/HomePage.tsx:64:6
+  62 |        </div>
+  63 |
+  64 |        {/* Featured Blog Posts */}
+     |        ^
+  65 |        <div className="bg-white py-24 sm:py-32">
+  66 |          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+9:59:16 am [vite] Internal server error: C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\pages\HomePage.tsx: Unexpected token, expected "," (64:6)
+
+  62 |       </div>
+  63 |
+> 64 |       {/* Featured Blog Posts */}
+     |       ^
+  65 |       <div className="bg-white py-24 sm:py-32">
+  66 |         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+  67 |           <div className="mx-auto max-w-2xl lg:mx-0">
+  Plugin: vite:react-babel
+  File: C:/Users/rajnz/Starting a Business AI Assissted/MetabolicMosaic Project/metabolicmosaic/pages/HomePage.tsx:64:6
+  62 |        </div>
+  63 |
+  64 |        {/* Featured Blog Posts */}
+     |        ^
+  65 |        <div className="bg-white py-24 sm:py-32">
+  66 |          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      at constructor (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6630:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6650:16)
+      at TypeScriptParserMixin.expect (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6930:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11669:14)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9806:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10788:23)
+      at C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10784:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12431:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10784:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13151:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12807:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9532:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12756:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13325:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13318:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13306:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12110:24)
+      at TypeScriptParserMixin.parseArrowExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12085:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11695:12)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9806:20)
+      at C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10804:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12431:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10804:17)
+      at TypeScriptParserMixin.parseVar (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13393:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13239:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9498:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12860:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9532:18)
+9:59:16 am [vite] (client) ✨ new dependencies optimized: react-dom/client, react-router-dom
+9:59:16 am [vite] (client) ✨ optimized dependencies changed. reloading
+9:59:16 am [vite] (client) Pre-transform error: C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\pages\HomePage.tsx: Unexpected token, expected "," (64:6)
+
+  62 |       </div>
+  63 |
+> 64 |       {/* Featured Blog Posts */}
+     |       ^
+  65 |       <div className="bg-white py-24 sm:py-32">
+  66 |         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+  67 |           <div className="mx-auto max-w-2xl lg:mx-0">
+  Plugin: vite:react-babel
+  File: C:/Users/rajnz/Starting a Business AI Assissted/MetabolicMosaic Project/metabolicmosaic/pages/HomePage.tsx:64:6
+  62 |        </div>
+  63 |
+  64 |        {/* Featured Blog Posts */}
+     |        ^
+  65 |        <div className="bg-white py-24 sm:py-32">
+  66 |          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+9:59:16 am [vite] Internal server error: C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\pages\HomePage.tsx: Unexpected token, expected "," (64:6)
+
+  62 |       </div>
+  63 |
+> 64 |       {/* Featured Blog Posts */}
+     |       ^
+  65 |       <div className="bg-white py-24 sm:py-32">
+  66 |         <div className="mx-auto max-w-7xl px-6 lg:px-8">
+  67 |           <div className="mx-auto max-w-2xl lg:mx-0">
+  Plugin: vite:react-babel
+  File: C:/Users/rajnz/Starting a Business AI Assissted/MetabolicMosaic Project/metabolicmosaic/pages/HomePage.tsx:64:6
+  62 |        </div>
+  63 |
+  64 |        {/* Featured Blog Posts */}
+     |        ^
+  65 |        <div className="bg-white py-24 sm:py-32">
+  66 |          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      at constructor (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:367:19)
+      at TypeScriptParserMixin.raise (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6630:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6650:16)
+      at TypeScriptParserMixin.expect (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:6930:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11669:14)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9806:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10788:23)
+      at C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10784:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12431:16)
+      at TypeScriptParserMixin.parseExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10784:17)
+      at TypeScriptParserMixin.parseReturnStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13151:28)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12807:21)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9532:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12776:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12756:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13325:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13318:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13306:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12110:24)
+      at TypeScriptParserMixin.parseArrowExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12085:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11695:12)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11335:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:4797:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11085:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11070:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:11050:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9857:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10903:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10908:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10885:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10835:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9806:20)
+      at C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10804:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12431:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:10804:17)
+      at TypeScriptParserMixin.parseVar (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13393:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:13239:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9498:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:12860:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\rajnz\Starting a Business AI Assissted\MetabolicMosaic Project\metabolicmosaic\node_modules\@babel\parser\lib\index.js:9532:18)

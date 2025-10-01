@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { posts } from '../data/posts';
@@ -39,9 +38,9 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* Hero Section */}
-      <div className="relative bg-brand-dark">
+      <div className="relative overflow-hidden bg-brand-dark">
         <div className="absolute inset-0">
-          <img className="w-full h-full object-cover" src="https://picsum.photos/seed/health-hero/1920/1080" alt="Healthy lifestyle"/>
+          <img className="w-full h-full object-cover" src="/images/hero.jpg" alt="Healthy lifestyle"/>
           <div className="absolute inset-0 bg-brand-dark opacity-60"></div>
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 text-center">
