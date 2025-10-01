@@ -1,7 +1,15 @@
 
 import type { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';
 import { createClient } from '@sanity/client';
-import fetch from 'node-fetch'; // Netlify Functions use Node.js, so node-fetch is available.
+export default async (req: Request) => {
+  const { comment } = await req.json();
+  const r = await fetch('https://example.com/api/comments', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ comment })
+  });
+  return new Response(await r.text(), { status: r.status });
+};
 
 const { SANITY_PROJECT_ID, SANITY_DATASET, SANITY_API_TOKEN, HCAPTCHA_SECRET_KEY } = process.env;
 
