@@ -1,17 +1,4 @@
-My apologies! You are absolutely right. I cut off mid-file for the submit-comment.ts Netlify Function. That's a critical piece of the puzzle.
 
-Let's complete that file and then provide the remaining instructions and Sanity schemas.
-
-AI-Generated Output (Continued)
-
-k) netlify/functions/submit-comment.ts (New - Netlify Function for comment submission - COMPLETE)
-
-code
-TypeScript
-download
-content_copy
-expand_less
---- START OF FILE netlify/functions/submit-comment.ts ---
 import type { Handler, HandlerEvent, HandlerContext } from '@netlify/functions';
 import { createClient } from '@sanity/client';
 import fetch from 'node-fetch'; // Netlify Functions use Node.js, so node-fetch is available.
@@ -477,4 +464,4 @@ expand_less
     "@heroicons/react": "^2.1.3"  // If you don't have this for ClipboardDocumentListIcon
   }
 }
---- END OF FILE package.json (relevant additions) ---
+
